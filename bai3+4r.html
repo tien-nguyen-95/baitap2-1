@@ -9,8 +9,10 @@
 <body>
     
     <script>
-        let r=parseInt(prompt("nhập bán kính hình tròn: "));
-        document.write("diện tích hình tròn: "+ r*r*3.14+"<br>chu vi hình tròn: "+2*r*3.14);
+        let r=parseFloat(prompt("nhập bán kính hình tròn: "));
+        let dientich=r*r*3.14;
+        let chuvi=2*r*3.14;
+        document.write("diện tích hình tròn: "+ dientich.toFixed(2)+"<br>chu vi hình tròn: "+chuvi.toFixed(2));
     </script>
 </body>
 </html>
